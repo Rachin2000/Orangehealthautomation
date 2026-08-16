@@ -26,10 +26,10 @@ public class LoginPage {
 
 
     private By txtUsername =
-            By.cssSelector("input[placeholder='Username']");
+            By.xpath("//input[@name='username']");
 
     private By txtPassword =
-            By.cssSelector("input[placeholder='Password']");
+            By.xpath("//input[@name='password']");
 
     private By LoginBtn =
             By.xpath("//button[text()=' Login ']");
